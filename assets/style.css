@@ -1,0 +1,65 @@
+h1{
+    color: #19aa25;
+    font-size: 35px;
+    width: 1250px;
+    margin: 0; 
+    transition: 0.9s;    
+}
+.button{
+width: 250px;
+height: 50px;
+background-color: rgb(228, 20, 99);
+margin-bottom: 40px;
+cursor: pointer;
+}
+.button:hover{
+    background-color: #19aa25;
+}
+h2{
+    margin: 0;
+}
+img{
+    margin-left: 30%;
+
+}
+.desc{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mask{
+    width: 500px;
+    height: 200px;
+    border: 3px solid #af1067;
+    padding: 20px;
+    background-color: rgb(200, 255, 0);
+}
+.card{
+    width: 500px;
+    height: 200px;
+      /* dashed - пунктир, solid - сплошной */
+    border: 3px solid #070969;
+    background-color: aqua;
+    padding: 20px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dd{
+    margin-left: 30%;
+}
+
+.fire{
+    color: #af1067;
+}
+.col {
+    color: rgb(221, 250, 92);    
+}
+
+.name{
+    margin-left: 90%;
+}
+h1:hover {
+    color: #f11515;
+}
